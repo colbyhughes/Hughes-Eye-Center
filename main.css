@@ -1,0 +1,111 @@
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1,{
+  color: #lightblue;
+}
+
+nav a {
+  color: #lightblue;
+}
+
+nav a:hover {
+  color: #lightblue;
+}
+
+h1 {
+  font-family: Changa One, sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+img {
+  max-width: 100%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #white;
+  color: #bdc3c7;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 30px;
+  	  max-width: 150px;
+  border-radius: 100%;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+@media (min-width: 480px){
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 660px) {
+  h2 {
+    font-size: 1.75em;
+  }
+}
+footer {
+color: #FFF200;
+  font-size: 2em;
+}
+
+section {
+  color: #7ec0ee;
+  font-size: 2em;
+}
